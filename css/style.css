@@ -1,0 +1,43 @@
+* {
+    font-family: "Roboto", sans-serif, ;
+}
+
+p{
+    color: aqua;
+    font-size: 30px;
+}
+
+h1{
+    color: crimson;
+    font-size: 30px;
+    font-weight:900;
+    font-style: italic;
+    text-align: right;
+    text-decoration:line-through;
+    text-transform:capitalize;
+}
+
+.header{
+    background-color: lime;
+}
+
+.bry {
+    background-color: coral;
+    padding: 20px;
+    border: 10px solid lime;
+}
+
+h1:hover {
+    color:chocolate ;
+    background-color: black;
+    font-size: 50%;
+}
+
+@media (max-width : 500px) {
+    body {
+        background-color: green;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}

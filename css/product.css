@@ -1,0 +1,18 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color:chocolate;
+    margin: 50px;
+    /* border-radius: 50%; */
+    box-shadow: 5px 5px 20px 20px rgba(0,0, 0, 0.5);
+
+}
+
+.container {
+    background-color: teal;
+    height: 100vh;
+
+    
+    display: flex;
+    justify-content:space-around;
+}
